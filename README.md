@@ -19,13 +19,10 @@ Proyecto para detectar personas **con casco** y **sin casco** en imágenes utili
 
 ```
 YOLOv8_hard_hut/
-├── venv/              # Entorno virtual (excluido del repositorio)
-├── data/              # Dataset en formato YOLO (images/labels)
-├── runs/              # Resultados del entrenamiento/inferencia (ignorado por git)
+├── dataset/              # Dataset en formato YOLO (images/labels)
+├── runs/              # Resultados del entrenamiento/inferencia 
 ├── infer.py           # Script de inferencia
 ├── train.py           # Script de entrenamiento
-├── metrics/           # Gráficas y métricas
-├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
