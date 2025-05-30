@@ -1,15 +1,14 @@
-names:
-- hard_hat
-- no_hard_hat
-- no_head_wear
-- person
+train: train/images
+val: valid/images
+test: test/images
+
 nc: 4
+names: ['hard_hat', 'no_hard_hat', 'no_head_wear', 'person']
+
+
 roboflow:
-  license: CC BY 4.0
-  project: hard_hat_detection-3onnc
-  url: https://universe.roboflow.com/iaespecializacion/hard_hat_detection-3onnc/dataset/1
-  version: 1
   workspace: iaespecializacion
-test: ../test/images
-train: ../train/images
-val: ../valid/images
+  project: hard_hat_detection-3onnc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/iaespecializacion/hard_hat_detection-3onnc/dataset/2

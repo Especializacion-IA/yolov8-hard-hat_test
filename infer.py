@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import cv2
 
 # model upload
-model = YOLO("runs/detect/train11/weights/best.pt")
+model = YOLO("runs/detect/train14/weights/best.pt")
 
 # img path
-image_path = sys.argv[1] if len(sys.argv) > 1 else "test_images/casco4.jpg"
+image_path = sys.argv[1] if len(sys.argv) > 1 else "test_images/casco8.jpg"
 
 # prediction
 results = model(image_path, save=True)  # prediction path runs/detect/predict
