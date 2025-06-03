@@ -1,1 +1,36 @@
+# Environment variables
 .env
+
+# Python virtual environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# YOLOv8 specific
+runs/
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+
+# Dataset
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
