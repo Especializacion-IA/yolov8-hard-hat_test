@@ -34,3 +34,22 @@ dataset/
 # OS
 .DS_Store
 Thumbs.db
+# Virtual Environment
+venv/
+
+# Model files
+*.pt
+runs/
+
+# Large data files
+*.h5
+*.pkl
+*.npy
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
